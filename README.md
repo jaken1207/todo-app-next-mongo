@@ -153,7 +153,16 @@ export default TaskPage;
 
 # メモ
 
+#
+
 import { usePathname } from "next/navigation";
 usePathname(※クライアントコンポーネント)を用いることで、リンクを用いることが出来る。
 用途：現在いるリンクボタンのスタイルを変更する。
 ![alt text](public/image1.png)
+
+#
+
+```
+<div className="line-clamp-3">
+三行目まで表示しそれ以降は...を表示するスタイルプロパティ
+```
