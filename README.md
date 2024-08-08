@@ -145,5 +145,15 @@ export default TaskPage;
 # ServerActions
 
 **クライアントから直接呼び出すことのできるサーバー側の非同期関数**
+後日記入
 
 # ミドルウェア
+
+後日記入
+
+# メモ
+
+import { usePathname } from "next/navigation";
+usePathname(※クライアントコンポーネント)を用いることで、リンクを用いることが出来る。
+用途：現在いるリンクボタンのスタイルを変更する。
+![alt text](public/image1.png)
